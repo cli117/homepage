@@ -8,58 +8,60 @@ import '../assets/styles/Timeline.scss'
 
 function Timeline() {
   return (
-    <div id="history">
+    <div id="timeline">
       <div className="items-container">
-        <h1>Career History</h1>
+        <h1>Timeline</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="2022 - 2024"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Master's in Computer Science @McGill University</h3>
+            <h4 className="vertical-timeline-element-subtitle">Montreal, QC</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+            Worked with Prof. Verbrugge. Parallelly solve the NFA/DFA using GPGPU devices using C++, typically NVidia GPU with CUDA API
             </p>
           </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2020 - 2022"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
-            <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2021 - 2021"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
-            <p>
-              Full-stack Development, API Development, User Experience
-            </p>
-          </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2020 - 2020"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h3 className="vertical-timeline-element-title">Gameplay Developer Intern @BehaviourInteractive</h3>
+            <h4 className="vertical-timeline-element-subtitle">Montreal, QC</h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+            Gameplay development, worked in Dead by Daylight. Mainly responsible for debugging and performance optimization.
+            </p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="2020 - 2022"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Gameplay Developer @Tencent Gaming</h3>
+            <h4 className="vertical-timeline-element-subtitle">Shenzhen, China</h4>
+            <p>
+              Gameplay development, worked in two projects: The Outcast Mobile (Unity3D) and OnePiece: Ambitious (Unreal Engine). 
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="2016 - 2020"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Bachelor's in Software Engineer @McGill University</h3>
+            <h4 className="vertical-timeline-element-subtitle">Montreal, QC</h4>
+            <p>
+              Algorithm, Data Structure, Software Development, Computer Networks, Machine Learning
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
